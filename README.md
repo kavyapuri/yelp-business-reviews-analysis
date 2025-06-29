@@ -1,4 +1,4 @@
-# 📊 Yelp Business Reviews Analysis (Snowflake + SQL + Python)
+# 📊 Yelp Business Reviews Analysis (SQL + Python + Snowflake + Amazon S3)
 
 This project analyzes Yelp's business and review data using a full data pipeline. It includes data preprocessing in Python, cloud storage via AWS S3, loading into Snowflake and performing SQL analytics and sentiment analysis to extract meaningful business insights.
 
