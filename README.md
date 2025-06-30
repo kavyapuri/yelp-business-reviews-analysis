@@ -34,3 +34,10 @@ This project analyzes Yelp's business and review data using a full data pipeline
 - Snowflake (SQL, data modeling, staging)
 - SQL analytics
 - End-to-end project workflow
+
+---
+
+## 📦 Files Included
+
+`split_yelp_json.py` - Preprocesses the large Yelp review dataset by splitting it into smaller JSON chunks to speed up ingestion into AWS S3 and Snowflake.
+
