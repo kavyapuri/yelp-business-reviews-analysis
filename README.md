@@ -39,5 +39,9 @@ This project analyzes Yelp's business and review data using a full data pipeline
 
 ## 📦 Files Included
 
-`split_yelp_json.py` - Preprocesses the large Yelp review dataset by splitting it into smaller JSON chunks to speed up ingestion into AWS S3 and Snowflake.
+- `split_yelp_json.py` - Preprocesses the large Yelp review dataset by splitting it into smaller JSON chunks to speed up ingestion into AWS S3 and Snowflake.
+- `01_create_business_table.sql`: Creates `yelp_businesses` table and loads data from AWS S3.
+- `02_create_reviews_table.sql`: Creates `yelp_reviews` table, loads reviews, and links sentiment function.
+- `03_sentiment_udf.sql`: Python UDF in Snowflake for sentiment classification using TextBlob.
+- `04_analysis_queries.sql`: Contains 10 analytical queries for extracting business insights.
 
